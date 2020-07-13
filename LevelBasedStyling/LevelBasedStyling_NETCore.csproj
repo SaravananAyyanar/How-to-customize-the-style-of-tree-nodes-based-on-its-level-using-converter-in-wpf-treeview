@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -8,14 +8,10 @@
     <RootNamespace>TreeNodeWithCheckBoxDemo</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Resource Include="App.ico" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
-    <Reference Include="Syncfusion.SampleLayout.WPF">
-    </Reference>
-    <Reference Include="Syncfusion.SfShared.Wpf">
-    </Reference>
     <Reference Include="Syncfusion.SfTreeView.WPF">
     </Reference>
-    <Reference Include="Syncfusion.Shared.WPF">
-    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App.ico" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
   </ItemGroup>
 </Project>
